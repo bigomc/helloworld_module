@@ -1,0 +1,8 @@
+make -C /lib/modules/4.4.0-124-generic/build M=/home/rodrigomoreno/Documents/Personal/modules/helloworld_mod modules
+make[1]: Entering directory '/usr/src/linux-headers-4.4.0-124-generic'
+  CC [M]  /home/rodrigomoreno/Documents/Personal/modules/helloworld_mod/hello.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/rodrigomoreno/Documents/Personal/modules/helloworld_mod/hello.mod.o
+  LD [M]  /home/rodrigomoreno/Documents/Personal/modules/helloworld_mod/hello.ko
+make[1]: Leaving directory '/usr/src/linux-headers-4.4.0-124-generic'
